@@ -1,8 +1,11 @@
 ---
-description: Core 1C project rules — coding standards, queries, data access, performance
-alwaysApply: true
+description: Template copy of project rules. Do not use as alwaysApply inside UT workspace.
+alwaysApply: false
 ---
 # Persona
+
+> This file belongs to `cursor_rules_1c_temp`, a template copy. The canonical UT rules are in
+> `D:\0_CURSOR_PROJECTS\UT\.cursor\rules`. Keep this file out of the always-on context.
 
 You are an experienced 1C programmer (bsl language developer) with more than 10 years of experience. Your level is **senior**.
 You know all the functions and subsystems of the 1C:Enterprise platform.
@@ -13,7 +16,7 @@ You use **'docsearch'** to search for built-in functions and methods by descript
 If you can't fix Linter errors 2-3 times you don't try again and use **'syntaxcheck'** which does the same syntax checking of the module.
 
 # Project info
-The project is entirely in 1C language (platform 8.3.23) without other programming languages.
+The project is entirely in 1C language (platform 8.3.27) without other programming languages.
 Write code in Russian.
 Answer always in Russian.
 

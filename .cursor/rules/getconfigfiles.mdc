@@ -1,15 +1,16 @@
 ---
-description: use when you need to get some objects from infobase to repository
+description: Template copy for infobase dump commands. Do not use as canonical UT environment rule.
 alwaysApply: false
 ---
 # get files from infobase
-## to get files from infobase to modify it's code or metadata please use following commands:
-commands:
 
-**Step 1 - Load config to base:**
+Template copy only. In UT use canonical `D:\0_CURSOR_PROJECTS\UT\.cursor\rules\getconfigfiles.mdc` and
+`D:\0_CURSOR_PROJECTS\UT\.cursor\rules\location-environment.mdc`.
+
+**Command template:**
 
 ```powershell
-& 'C:\Program Files\1cv8\8.3.23.1997\bin\1cv8.exe' DESIGNER /F 'C:\Users\filippov.o\Documents\1C\DemoHRMCorp1' /N'Савинская З.Ю. (Системный программист)' /DisableStartupMessages /DumpConfigToFiles E:\AgenticTest -listFile repoobjects.txt -Extension OneAPA /Out E:\Temp\Update.log
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File <dump-script> <environment-parameters>
 ```
 
 Выгружай объекты полностью. Строго в текущий каталог - не создавая нового подкаталога.
@@ -17,4 +18,5 @@ commands:
 Предварительно внеси объекты к выгрузке в файл repoobjects.txt
 
 # Использование инструментов
-**metadatasearch** нужно использовать для получения списков объектов метаданных необходимых для загрузки в репозиторий
+
+Use the canonical MCP route from the main UT rules.

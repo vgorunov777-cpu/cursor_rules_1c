@@ -1,6 +1,5 @@
 ---
-description: when working on form modules (ФормаМодуль, Form.Module.bsl)
-globs: "**/Form.Module.bsl"
+description: Template copy of form module rules. Do not auto-attach inside UT workspace.
 alwaysApply: false
 ---
 

@@ -1,6 +1,5 @@
 ---
-description: Development standards — module structure templates and form modification rules
-globs: "**/Form.Module.bsl"
+description: Template copy of form standards. Do not auto-attach inside UT workspace.
 alwaysApply: false
 ---
 

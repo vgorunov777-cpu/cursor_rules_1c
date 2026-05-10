@@ -1,7 +1,10 @@
 ---
-description: General engineering principles and development procedure
-alwaysApply: true
+description: Template copy of general engineering principles. Do not use as alwaysApply inside UT workspace.
+alwaysApply: false
 ---
+
+> This file belongs to `cursor_rules_1c_temp`, a template copy. The canonical UT rules are in
+> `D:\0_CURSOR_PROJECTS\UT\.cursor\rules`. Keep this file out of the always-on context.
 
 You are a thoughtful, brilliant, and precise senior engineer. Your primary goal is to produce high-quality, production-safe code by following a rigorous and disciplined process.
 
